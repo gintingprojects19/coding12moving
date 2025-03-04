@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+}
+#header{
+    width: 100%;
+    position: fixed;
+    z-index: 2;
+    background:linear-gradient(to bottom,darkblue,white);
+}
+#menu-bar{
+    width: 100%;
+    height: 50px;
+    background: linear-gradient(to bottom,black,white);
+}
+#pemilik{
+    color: white;
+    padding: 10px;
+}
+#daftar-menu{
+    display: inline-flex;
+}
+.menu{
+    padding: 10px;
+    list-style: none;
+    width: 140px;
+    text-align: center;
+    color: white;
+}
+.menu:hover{
+    background-color: black;
+    color: white;
+}
+#daftar-artikel{
+    display: none;
+}
+#open-artikel:hover #daftar-artikel{
+    display: block;
+    
+}
+.sub-artikel:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    width: 100px;
+    text-align: center;
+    
+    
+}
+.sub-artikel{
+    list-style: none;
+    margin-left: -20px;
+    padding-top: 15px;
+}
+.kontent{
+    width: 100%;
+    height: 5000px;
+    /*background-color: gray;*/
+    display: flex;
+}
+.info-terkini{
+    width: 150px;
+    padding: 10px;
+}
+.info-terkini:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+#side-kiri{
+    width: 20%;
+    
+    /*background-color: purple;*/
+}
+#side-kanan{
+    width: 80%;
+    height: 1000px;
+    /*background-color: orange;*/
+    display: flex;
+}
+#left{
+    width: 50%;
+    height: 1000px;
+   /* background-color: green;*/
+    
+}
+.tag-ft{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+}
+.tag-txt{
+    width: 250px;
+    height: 100px;
+    background-color: white;
+}
+#tag-line{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 50px;
+    
+}
+.jdl-tag-line{
+    padding: 6px;
+    
+}
+.tag-txt:hover{
+    background-color: skyblue;
+    cursor: pointer;
+}
+#right{
+    width: 50%;
+    height: 400px;
+    /*background-color: salmon;*/
+    display: flex;
+    justify-content: space-evenly;
+    
+    flex-wrap: wrap;
+   
+    
+    
+    
+    
+
+    
+    
+}
+.foto{
+    width: 170px;
+    height: 170px;
+    background-color: skyblue;
+}
+#youtube{
+    width: 96%;
+    height: 400px;
+    background-color: black;
+    margin: auto;
+}
+#yt{
+    width: 100%;
+    height: 100%;
+}
+#jdl-yt{
+    text-align: center;
+    color: white;
+}
+#owner{
+    width: 200px;
+    
+    background-color: black;
+    margin: auto;
+    margin-top: 20px;
+}
+.been{
+    color: white;
+    text-align: center;
+}
+#gbr-been{
+    width: 100%;
+}
+.gbr-foto{
+    width: 100%;
+    height: 100%;
+}
